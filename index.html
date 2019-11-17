@@ -1,3 +1,4 @@
+<!some parts from ––https://www.w3schools.com/howto/howto_css_example_website.asp––> 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,9 +15,8 @@
 body {
   font-family: -apple-system,Helvetica;
   margin: 100;
-  background: #B0F9EC
+  background: #BCE9E9
 }
-.img-circle{border-radius: 50%;}
 
 /* Increase the font size of the heading */
 .header h1 {
@@ -34,24 +34,24 @@ body {
 /* Sidebar/left column */
 .side {
   background-color: #EDF8F8;
-  padding: 5%;
+  padding: 3%;
   border: 2px;
+  width:25%;
   border-radius: 15px;
-  -moz-border-radius: 15px;
   margin-top: 35px;
-  margin-left: 20px;
-  margin-right: 35px;
+  margin-left: 10px;
   margin-bottom: 35px;
+
 
 }
 
 /* Main column */
 .main {   
-  background-color: white;
-  padding: 5%;
+  background-color: #EDF8F8;
+  padding: 3%;
   width:60%;
   margin-top: 35px;
-  margin-left: 110px;
+  margin-left: 90px;
   margin-bottom: 35px;
   text-align: justify;
   border: 2px;
@@ -59,19 +59,24 @@ body {
 
 }
 
-/* Fake image, just for this example */
-.fakeimg {
-  width: 50%;
-  align-items:center;
-  justify-content:center;
- 
+.myimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
   
+}
+img {
+  border-radius: 8px;
+}
+small { 
+  font-size: smaller;
 }
 
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
-  .row {   
+  .container {   
     flex-direction: column;
   }
 }
@@ -85,7 +90,7 @@ body {
 }
 </style>
 </head>
-<body LINK="#24BCC1" VLINK= "#5479E1">
+<body LINK="#7C8080" VLINK= "#7C8080">
 
 
   <div class="container">
@@ -96,7 +101,7 @@ body {
     <p> I'm a second year Ph.D. student in Computer Science at Georgetown University. I'm a member of <a style="text-decoration:none"  href="http://nert.georgetown.edu/">NERT</a>, <a style="text-decoration:none" href="https://corpling.uis.georgetown.edu/corpling/">Corpling@GU</a> and <a style="text-decoration:none"  href="http://gucl.georgetown.edu/">GUCL</a>. Broadly, I'm interested in Natural Language Processing and Computational Linguistics. Currently, I'm working on projects related to coreference resolution and part of speech tagging.
     </p>
 
-    <p>I got my undergraduate degree in Computer Engineering at Sharif University of Technology, where I worked under Dr. <a style="text-decoration:none" href="http://sharif.edu/~beigy/">Hamid Beygi</a>'s supervision during the final year. The goal of this project was to locate the source of information propagation, in social media networks.</p>
+    <p>I got my undergraduate degree in Computer Engineering at Sharif University of Technology. My thesis was on Cartogram Creation and my advisor was <a style="text-decoration:none" href="http://sharif.edu/~abam/">Dr. Mohammad Ali Abam</a>. I also worked on a project under the supervision of <a style="text-decoration:none" href="http://sharif.edu/~beigy/">Dr. Hamid Beygi</a> during the final year. The goal of this project was to locate the source of information propagation, in social media networks.</p>
 <br>
 <br>
     <h3>Internships</h3>
@@ -105,9 +110,20 @@ body {
 </ul>
   </div>
   <div class="side">
-   <div class="fakeimg"><img src="p1.jpg" height="260" width="200"></div>
-    <p style="text-align:left; font size="-1">
-    Email: shabnam[at]cs[dot]georgetown[dot]edu
+   <div class="myimg"><img src="2.JPG"></div>
+    <small>
+      <br>
+      Department of Computer Science, 
+      <br>
+      Georgetown University,
+      <br>
+      Washington, DC, USA
+      <br>
+      <br>
+    <a style="text-decoration:none" href = "mailto: shabnam@cs.georgetown.edu">Email</a>
+    <br>
+    <a style="text-decoration:none" href = "https://www.linkedin.com/in/shabnam-behzad">Linkedin</a>
+  </small>
 </font></p>
   
 </div>
