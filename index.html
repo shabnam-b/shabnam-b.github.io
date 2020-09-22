@@ -1,146 +1,171 @@
-<!some parts from ––https://www.w3schools.com/howto/howto_css_example_website.asp––> 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>Shabnam Behzad</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="assets/css/main.css" />
-<style>
-* {
-  box-sizing: border-box;
-}
-
-/* Style the body */
-body {
-  font-family: -apple-system,Helvetica;
-  margin: 100;
-  background: #BCE9E9
-}
-
-.header h1 {
-  font-size: 30px;
-}
-.container {
-   display: inline-flex;
-   flex-direction: row;
-   flex-wrap: nowrap;
- }
-
-.side {
-  background-color: #EDF8F8;
-  padding: 3%;
-  border: 2px;
-  width:25%;
-  border-radius: 15px;
-  margin-top: 35px;
-  margin-left: 10px;
-  margin-bottom: 35px;
-
-
-}
-
-.main {   
-  background-color: #EDF8F8;
-  padding: 3%;
-  width:60%;
-  margin-top: 35px;
-  margin-left: 90px;
-  margin-bottom: 35px;
-  text-align: justify;
-  border: 2px;
-  border-radius: 15px;
-
-}
-
-.myimg {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: auto;
-  padding: auto;
+<!DOCTYPE HTML>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!-- Hi, Jon Here. Please DELETE the two <script> tags below if you use this HTML, otherwise my analytics will track your page -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
   
-}
-img {
-  border-radius: 8px;
-}
-small { 
-  font-size: smaller;
-}
 
-
-/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 1000px) {
-  .container {   
-    flex-direction: column;
-  }
-  .side {
-  background-color: #EDF8F8;
-  padding: 3%;
-  border: 2px;
-  width:40%;
-  border-radius: 15px;
-  margin-top: 5%;
-  margin-left: 5%;
-  margin-bottom: 5%;
-
-
-}
-
-.main {   
-  background-color: #EDF8F8;
-  padding: 3%;
-  width:70%;
-  margin-top: 5%;
-  margin-left: 5%;
-  margin-bottom: 5%;
-  text-align: justify;
-  align-items: center;
-  border: 2px;
-  border-radius: 15px;
-}
-
-
-</style>
+  <title>Shabnam Behzad</title>
+  
+  <meta name="author" content="Shabnam Behzad">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="icon" type="image/png" href="images/gw.png">
 </head>
-<body LINK="#7C8080" VLINK= "#7C8080">
+
+<body>
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:63%;vertical-align:middle">
+              <p style="text-align:center">
+                <name>Shabnam Behzad</name>
+              </p>
+              <p>Hi!</p>
+              <p>
+                I'm a third-year Ph.D. student in Computer Science at Georgetown University. I'm a member of <a href="http://nert.georgetown.edu/">NERT</a>, <a href="https://corpling.uis.georgetown.edu/corpling/">Corpling@GU</a>, and <a href="http://gucl.georgetown.edu/">GUCL</a>. My advisors are <a href="http://people.cs.georgetown.edu/nschneid/"> Nathan Schneider</a> and <a href="https://corpling.uis.georgetown.edu/amir/"> Amir Zeldes</a>. Before Georgetown, I got my B.S. in Computer Engineering at the Sharif University of Technology.
+            </p>
+            <p>
+
+                Broadly, I'm interested in Natural Language Processing and Computational Linguistics. Currently, I'm working on projects related to part of speech tagging, grammatical error correction, and common sense reasoning.
+              </p>
+              <p style="text-align:center">
+                <a href="mailto:shabnam@cs.georgetown.edu">Email</a> &nbsp/&nbsp
+                <a href="https://scholar.google.com/citations?user=UEowojcAAAAJ&hl=en">Google Scholar</a> &nbsp/&nbsp
+                <a href="https://www.linkedin.com/in/shabnam-behzad">Linkedin</a> &nbsp/&nbsp
+                <a href="https://twitter.com/Shabnam_Behzad">Twitter</a>
+              </p>
+            </td>
+            <td style="padding:2.5%;width:40%;max-width:40%">
+              <img style="width:100%;max-width:100%" alt="profile photo" src="images/sb.jpg" class="hoverZoomLink">
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Publications</heading>
+            </td>
+          </tr>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+            <tr>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2008.09703">
+                <papertitle>Team DoNotDistribute at SemEval-2020 Task 11: Features, Finetuning, and Data Augmentation in Neural Models for Propaganda Detection in News Articles</papertitle>
+              </a>
+              <br>
+              Michael Kranzlein,
+              <strong>Shabnam Behzad</strong>,
+              Nazli Goharian.
+              <br>
+              <em>SemEval</em>, 2020  
+              <br>
+              <a href="https://arxiv.org/abs/2008.09703">paper</a> /
+              <a href="data/SemEval2020.bib">bibtex</a>
+            </td>
+
+            </tr>
+
+            <tr>
+			<td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://www.aclweb.org/anthology/2020.wac-1.7/">
+                <papertitle>A Cross-Genre Ensemble Approach to Robust Reddit Part of Speech Tagging</papertitle>
+              </a>
+              <br>
+              <strong>Shabnam Behzad</strong>,
+              Amir Zeldes.
+              <br>
+              <em>WAC</em>, 2020  
+              <br>
+              <a href="https://www.aclweb.org/anthology/2020.wac-1.7.pdf">paper</a> /
+              <a href="https://github.com/shabnam-b/reddit-pos-ensemble">code</a> /
+              <a href="data/WAC-2020.bib">bibtex</a>
+            </td>
+            </tr>
 
 
-  <div class="container">
-  <div class="main">
 
-    <h2>Shabnam Behzad</h2>
-    <p>Hi!</p>
-    <p> I'm a second year Ph.D. student in Computer Science at Georgetown University. I'm a member of <a style="text-decoration:none"  href="http://nert.georgetown.edu/">NERT</a>, <a style="text-decoration:none" href="https://corpling.uis.georgetown.edu/corpling/">Corpling@GU</a> and <a style="text-decoration:none"  href="http://gucl.georgetown.edu/">GUCL</a>. Broadly, I'm interested in Natural Language Processing and Computational Linguistics. Currently, I'm working on projects related to coreference resolution and part of speech tagging.
-    </p>
+            <tr>
+			<td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://www.aclweb.org/anthology/2020.lrec-1.648/">
+                <papertitle>AMALGUM – A Free, Balanced, Multilayer English Web Corpus</papertitle>
+              </a>
+              <br>
+              Luke Gessler,
+              Siyao Peng,
+              Yang Liu,
+              Yilun Zhu,
+              <strong>Shabnam Behzad</strong>,
+              Amir Zeldes.
+              <br>
+              <em>LREC</em>, 2020  
+              <br>
+              <a href="https://www.aclweb.org/anthology/2020.lrec-1.648.pdf">paper</a> /
+              <a href="https://github.com/gucorpling/amalgum">code</a> /
+              <a href="data/amalgum.bib">bibtex</a>
+            </td>
+            </tr>
 
-    <p>I got my undergraduate degree in Computer Engineering at Sharif University of Technology. My thesis was on Cartogram Creation and my advisor was <a style="text-decoration:none" href="http://sharif.edu/~abam/">Dr. Mohammad Ali Abam</a>. I also worked on a project under the supervision of <a style="text-decoration:none" href="http://sharif.edu/~beigy/">Dr. Hamid Beygi</a> during the final year. The goal of this project was to locate the source of information propagation, in social media networks.</p>
-<br>
-<br>
-    <h3>Internships</h3>
-    <ul>
-  <li>MedStar Institute for Innovations, Washington, D.C. (Summer 2019)</li>
-</ul>
-  </div>
-  <div class="side">
-   <div class="myimg"><img src="2.JPG"></div>
-    <small>
-      <br>
-      Department of Computer Science, 
-      <br>
-      Georgetown University,
-      <br>
-      Washington, DC, USA
-      <br>
-      <br>
-    <a style="text-decoration:none" href = "mailto: shabnam@cs.georgetown.edu">Email</a>
-    <br>
-    <a style="text-decoration:none" href = "https://www.linkedin.com/in/shabnam-behzad">Linkedin</a>
-  </small>
-</font></p>
-  
-</div>
-</div>
 
+            <tr>
+			<td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://journals.lww.com/journalpatientsafety/Abstract/9000/A_Machine_Learning_Approach_to_Reclassifying.99134.aspx">
+                <papertitle>A Machine Learning Approach to Reclassifying Miscellaneous Patient Safety Event Reports.</papertitle>
+              </a>
+              <br>
+              Allan Fong,
+              <strong>Shabnam Behzad</strong>,
+              Zoe Pruitt,
+              Raj M. Ratwani.
+              <br>
+              <em>Journal of Patient Safety</em>, 2020  
+              <br>
+            </td>
+            </tr>
+
+            
+
+           </tbody></table>
+    
+         
+
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+          <tr>
+            <td>
+              <heading>Internships</heading>
+            </td>
+          </tr>
+        </tbody></table>
+        <table width="100%" align="center" border="0" cellpadding="20"><tbody>
+        	<tr>
+            <td width="75%" valign="center">
+          	Research Scientist, Megagon Labs (Summer 2020)
+            
+          </tr>
+          <tr>
+            <td width="75%" valign="center">
+          	Senior Research Associate, MedStar Institute for Innovations (Summer 2019)
+            
+          </tr>
+          
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td style="padding:0px">
+              <br>
+              <p style="text-align:right;font-size:small;">
+                <br>
+                Template from <a href="https://jonbarron.info/">here</a>.
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+      </td>
+    </tr>
+  </table>
 </body>
+
 </html>
