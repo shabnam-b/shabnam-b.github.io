@@ -64,17 +64,17 @@
 }
 
 a {
-  color: #008080;
+  color: #1772d0;
   text-decoration: none;
 }
 
 a:focus,
 a:hover {
-  color: #008080;
+  color: #f09228;
   text-decoration: none;
 }
 
-body {background-color: coral;},
+body {background-color: #F0FFF0;},
 td,
 th,
 tr,
@@ -127,5 +127,5 @@ name {
 }
 
 span.highlight {
-  background-color: #008080;
+  background-color: #ffffd0;
 }
